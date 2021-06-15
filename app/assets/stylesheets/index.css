@@ -23,7 +23,7 @@ body {
 
 .select-box {
   text-decoration: none;
-  font-family: 'ヒラギノ角ゴ ProN W6';
+  font-family: '游明朝体';
   font-size: 18px;
   margin: 0 15px 0 15px;
   padding: 10px;
@@ -55,7 +55,7 @@ body {
   font-size: 18px;
   padding: 10px 20px;
   color: rgb(29, 29, 29);
-  font-family: 'ヒラギノ角ゴ ProN W6';
+  font-family: '游明朝体';
   border: solid 1px rgb(65, 65, 65, 0.6);
   border-radius: 3px;
 }
