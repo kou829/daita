@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid rgb(200, 124, 0);
+  margin: 0 100px;
+}
+
+.header_icon h1{
+    color: #FF7C00;
+    background: -webkit-linear-gradient(top, #FFB76B 0%, #FFA73D 50%, #FF7C00 51%, #FF7F04 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Comic Sans MS';
+    font-size: 42px;
+    margin: 30px 0 10px 150px;
+  }
+
+.devise {
+  margin: 50px 0 10px 500px;
+}
+
+.select-box {
+  text-decoration: none;
+  font-family: 'ヒラギノ角ゴ ProN W6';
+  font-size: 18px;
+  margin: 0 15px 0 15px;
+  padding: 10px;
+  border: solid 1px rgb(65, 65, 65,0.6);
+  border-radius: 3px;
+  color: rgb(65, 65, 65);
+}
