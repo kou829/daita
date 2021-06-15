@@ -1,0 +1,127 @@
+body {
+  background-color: rgba(255, 255, 255, 0.918);
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid rgb(200, 124, 0);
+}
+
+.header_icon h1{
+    color: #FF7C00;
+    background: -webkit-linear-gradient(top, #FFB76B 0%, #FFA73D 50%, #FF7C00 51%, #FF7F04 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Comic Sans MS';
+    font-size: 42px;
+    margin: 30px 0 10px 250px;
+  }
+
+.devise {
+  margin: 50px 0 10px 500px;
+}
+
+.select-box {
+  text-decoration: none;
+  font-family: '游明朝体';
+  font-size: 18px;
+  margin: 0 15px 0 15px;
+  padding: 10px;
+  border: solid 1px rgb(65, 65, 65,0.6);
+  border-radius: 3px;
+  color: rgb(65, 65, 65);
+}
+
+.search_new_judgment_box {
+  display: flex;
+  border-bottom: 1px solid rgb(200, 124, 0);
+}
+
+.search-input {
+  margin: 20px 0 0 350px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.918);
+  border: solid 1px rgb(65, 65, 65, 0.6);
+  border-radius: 3px;
+}
+
+.judgment_box {
+  margin: 26px 0 25px 450px;
+}
+
+.new_judgment {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  color: rgb(29, 29, 29);
+  font-family: '游明朝体';
+  border: solid 1px rgb(65, 65, 65, 0.6);
+  border-radius: 3px;
+}
+
+.catch_copy_box {
+  width: 600px;
+  margin: 40px auto 0;
+  color: rgb(29, 29, 29);
+  font-family: '游明朝体';
+  border: solid 1px rgb(65, 65, 65, 0.6);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.catch_copy_box h1 {
+  text-align: center;
+}
+
+.catch_copy_box p {
+  text-align: center;
+}
+
+.agenda_list_box {
+  width: 800px;
+  margin: 40px auto 0;
+}
+
+.agenda_explain {
+  background-color: rgb(65, 65, 65,0.5);
+  border-top: solid 0.5px rgb(65, 65, 65,0.5);
+  border-left: solid 0.5px rgb(65, 65, 65,0.5);
+  border-right: solid 0.5px rgb(65, 65, 65,0.5);
+  border-bottom: solid 5px rgb(65, 65, 65,0.5);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.agenda_explain h3 {
+  color: rgb(29, 29, 29);
+  font-family: '游明朝体';
+  padding: 10px 10px;
+}
+
+.agenda_list {
+  width: 798px;
+  margin: 0 auto 0;
+  background-color: white;
+  border-left: solid 0.5px rgb(65, 65, 65,0.5);
+  border-right: solid 0.5px rgb(65, 65, 65,0.5);
+  border-bottom: solid 0.5px rgb(65, 65, 65,0.5);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.agenda_title {
+  padding: 15px 0 5px 20px;
+}
+
+.agenda_overview {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-left: solid 3px rgb(65, 65, 65,0.5);
+  padding: 5px 0 5px 10px;
+}
+
+.border_bottom {
+  border-bottom: solid 1px rgb(65, 65, 65,0.5);
+  margin: 0 20px 10px;
+}
