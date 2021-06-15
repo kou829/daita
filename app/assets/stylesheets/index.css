@@ -1,8 +1,10 @@
+body {
+  background-color: rgba(197, 197, 197, 0.4);
+}
+
 .header {
   display: flex;
-  background-color: white;
   border-bottom: 1px solid rgb(200, 124, 0);
-  margin: 0 100px;
 }
 
 .header_icon h1{
@@ -12,7 +14,7 @@
     -webkit-text-fill-color: transparent;
     font-family: 'Comic Sans MS';
     font-size: 42px;
-    margin: 30px 0 10px 150px;
+    margin: 30px 0 10px 250px;
   }
 
 .devise {
@@ -28,4 +30,32 @@
   border: solid 1px rgb(65, 65, 65,0.6);
   border-radius: 3px;
   color: rgb(65, 65, 65);
+}
+
+.search_new_judgment_box {
+  display: flex;
+  border-bottom: 1px solid rgb(200, 124, 0);
+}
+
+.search-input {
+  margin: 20px 0 0 350px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgba(197, 197, 197, 0.4);
+  border: solid 1px rgb(65, 65, 65, 0.6);
+  border-radius: 3px;
+}
+
+.judgment_box {
+  margin: 26px 0 25px 450px;
+}
+
+.new_judgment {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  color: rgb(29, 29, 29);
+  font-family: 'ヒラギノ角ゴ ProN W6';
+  border: solid 1px rgb(65, 65, 65, 0.6);
+  border-radius: 3px;
 }

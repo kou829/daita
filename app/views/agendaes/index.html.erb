@@ -21,6 +21,16 @@
         </div>
     </div>
     <div class="main">
+        <div class="search_new_judgment_box">
+            <div class="search">
+                <%= form_with(url: '#', local: true, method: :get, class: "search-form") do |form| %>
+                  <%= form.text_field :keyword, placeholder: "議題の検索", class: "search-input" %>
+                <% end %>
+            </div>
+            <div class="judgment_box">
+                <%= link_to "投稿", "#", class: "new_judgment"%>
+            </div>
+        </div>
     </div>
     <div class="footer">
     </div>
