@@ -4,8 +4,16 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-         validates :nickname, presence: true
-         validates :sex, presence: true
-         validates :age, presence: true
-         validates :profile, presence: true
+         extend ActiveHash::Associations::ActiveRecordExtensions
+         belongs_to_active_hash :age
+         belongs_to_active_hash :sex
+
+         with_options presence: true do
+          with_options numericality: { other_than: 1 } do
+           validates :sex
+           validates :age
+          end
+          validates :nickname
+          validates :profile
+         end
 end

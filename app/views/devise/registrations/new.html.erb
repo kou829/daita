@@ -1,0 +1,52 @@
+<div class="top">
+    <div class="header">
+        <div class="header_icon">
+            <h1 class="icon">Daita</h1>
+        </div>
+        <div class="devise">
+            <div class="select-boxes">
+                <%= link_to "TOP", root_path, class: "select-box" %>
+                <%= link_to "ログイン", '#', class: "select-box" %>
+            </div>
+        </div>
+    </div>
+    <div class="devise_background">
+      <h1>新規登録</h1>
+      <%= form_with model: @user, url: user_registration_path, local: true do |f| %>
+        <%# render "users/shared/error_messages", model: @user %>
+        <div class="field-input">
+          <div class="field">
+            <%= f.text_field :nickname, placeholder: "ニックネーム", class: "field_box" %>
+          </div>
+          <div class="field">
+            <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "メールアドレス", class: "field_box" %>
+          </div>
+          <div class="field">
+            <%= f.password_field :password, autocomplete: "new-password", placeholder: "パスワード", class: "field_box" %>
+          </div>
+          <div class="field">
+            <%= f.password_field :password_confirmation, autocomplete: "new-password", placeholder: "再パスワード", class: "field_box" %>
+          </div>
+          <div class="profile">
+              <%= f.text_area :profile, placeholder: "プロフィール", class: "profile_box", size: "30x5" %>
+          </div>
+          <div class="select_field">
+            <div class="field">
+              <%= f.collection_select(:sex_id, Sex.all, :id, :name, {}, class: "sex-select") %>
+            </div>
+            <div class="field">
+              <%= f.collection_select(:age_id, Age.all, :id, :name, {}, class: "age-select") %>
+            </div>
+          </div>
+          <div class="actions">
+            <%= f.submit "新規登録", id: "field_btn" %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+    <div class="footer">
+    </div>
+</div>
+
+
+

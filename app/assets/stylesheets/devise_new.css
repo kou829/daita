@@ -1,0 +1,52 @@
+.devise_background {
+    width: 500px;
+    margin: 5% auto 5%;
+    background-color: rgb(65, 65, 65,0.3);
+    border: solid 1px rgb(65, 65, 65);
+    border-radius: 3px;
+}
+
+.devise_background h1 {
+    text-align: center;
+    color: #1d1d1d;
+    font-family: '游明朝体';
+    margin: 30px 0;
+}
+
+.field-input {
+    text-align: center;
+}
+
+.field_box {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    border-bottom: solid 1px rgb(65, 65, 65, 0.6);
+    font-family: '游明朝体';
+}
+
+.profile_box {
+    font-family: '游明朝体';
+    font-size: 16px;
+    margin: 15px auto 10px;
+}
+
+.select_field {
+    display: flex;
+    justify-content: center;
+}
+
+.sex-select {
+    margin-right: 20px;
+}
+
+#field_btn {
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: white,0.8;
+    border: solid 1px rgb(65, 65, 65,0.5);
+    border-radius: 3px;
+    font-family: '游明朝体';
+  }
+
