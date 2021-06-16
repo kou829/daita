@@ -7,7 +7,7 @@
             <div class="select-boxes">
                 <% if user_signed_in?  %>
                   <%= link_to "ユーザー名", '#', class: "select-box" %>
-                  <%= link_to "ログアウト", '#', method: :delete, class: "select-box" %> 
+                  <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "select-box" %> 
                 <% elsif %> 
                   <%= link_to "ログイン", '#', class: "select-box" %>
                   <%= link_to "新規登録", new_user_registration_path, class: "select-box" %> 
