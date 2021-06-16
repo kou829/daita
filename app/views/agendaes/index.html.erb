@@ -5,18 +5,18 @@
         </div>
         <div class="devise">
             <div class="select-boxes">
-                <%# <% if user_signed_in? %> 
+                <% if user_signed_in?  %>
                   <%= link_to "ユーザー名", '#', class: "select-box" %>
-                <%# <% elsif %> 
+                <% elsif %> 
                   <%= link_to "ログイン", '#', class: "select-box" %>
-                <%# <% end %> 
+                <% end %> 
             </div>
             <div class="select-boxes">
-                <%# <% if user_signed_in? %> 
-                  <%# <%= link_to "ログアウト", '#', method: :delete, class: "select-box" %> 
-                <%# <% elsif %> 
-                  <%# <%= link_to "新規登録", '#', class: "select-box" %> 
-                <%# <% end %> 
+                <% if user_signed_in? %> 
+                  <%= link_to "ログアウト", '#', method: :delete, class: "select-box" %> 
+                <% elsif %> 
+                  <%= link_to "新規登録", new_user_registration_path, class: "select-box" %> 
+                <% end %> 
             </div>
         </div>
     </div>
