@@ -15,6 +15,12 @@
       <div class="field">
         <%= f.password_field :password_confirmation, autocomplete: "new-password", placeholder: "再パスワード", class: "field_box" %>
       </div>
+      <div class="field">
+        <%= f.collection_select(:sex_id, Sex.all, :id, :name, {}, class: "sex-select") %>
+      </div>
+      <div class="field">
+        <%= f.collection_select(:age_id, Age.all, :id, :name, {}, class: "age-select") %>
+      </div>
       <div class="actions">
         <%= f.submit "新規登録", id: "field_btn" %>
       </div>
