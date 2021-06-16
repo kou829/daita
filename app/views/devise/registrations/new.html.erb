@@ -12,7 +12,7 @@
     </div>
     <div class="devise_background">
       <h1>新規登録</h1>
-      <%= form_with model: @user, url: '#', local: true do |f| %>
+      <%= form_with model: @user, url: user_registration_path, local: true do |f| %>
         <%# render "users/shared/error_messages", model: @user %>
         <div class="field-input">
           <div class="field">
@@ -26,6 +26,9 @@
           </div>
           <div class="field">
             <%= f.password_field :password_confirmation, autocomplete: "new-password", placeholder: "再パスワード", class: "field_box" %>
+          </div>
+          <div class="profile">
+              <%= f.text_area :profile, placeholder: "プロフィール", class: "profile_box", size: "30x5" %>
           </div>
           <div class="select_field">
             <div class="field">
