@@ -26,11 +26,22 @@
     font-family: '游明朝体';
 }
 
+
+.select_field {
+    display: flex;
+    justify-content: center;
+}
+
+.sex-select {
+    margin-right: 20px;
+}
+
 #field_btn {
     margin: 20px 0;
     padding: 10px 20px;
     background-color: white,0.8;
     border: solid 1px rgb(65, 65, 65,0.5);
     border-radius: 3px;
+    font-family: '游明朝体';
   }
 
