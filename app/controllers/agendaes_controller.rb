@@ -3,9 +3,10 @@ class AgendaesController < ApplicationController
   end
 
   def new 
+    @agenda = Agenda.new
   end
 
   def create
   end
-  
+
 end
