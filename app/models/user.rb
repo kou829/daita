@@ -4,6 +4,9 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
+        #  アソシエーション
+         has_many :agendas
+
          extend ActiveHash::Associations::ActiveRecordExtensions
          belongs_to_active_hash :age
          belongs_to_active_hash :sex
