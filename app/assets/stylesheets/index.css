@@ -107,8 +107,6 @@ body {
   border-left: solid 0.5px rgb(65, 65, 65,0.5);
   border-right: solid 0.5px rgb(65, 65, 65,0.5);
   border-bottom: solid 0.5px rgb(65, 65, 65,0.5);
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
 }
 
 .agenda_title {
