@@ -36,14 +36,16 @@
             </div>
             <% @agenda.each do |agenda| %>
                 <div class="agenda_list">
-                    <div class="agenda_title">
-                        <%= agenda.title %>
-                    </div>
+                    <%= link_to agendae_path(agenda.id) do %>
+                        <div class="agenda_title">
+                            <%= agenda.title %>
+                        </div>
+                    <% end %>
                     <div class="agenda_overview">
                         <%= agenda.catch_copy %>
                     </div>
                     <div class="border_bottom"></div>
-                </div>
+                </div> 
             <% end %>
         </div>
     </div>
