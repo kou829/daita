@@ -13,10 +13,10 @@
     <div class="main">
         <div class="agenda_box">
             <div class="agenda_title_show">
-                タイトル：　<%= @agenda.title %>
+                タイトル：　<%= simple_format(@agenda.title) %>
             </div>
             <div class="agenda_overview_show">
-                概要：<br><%= @agenda.catch_copy %>
+                概要：<br><%= simple_format(@agenda.catch_copy) %>
             </div>
         </div>
     </div>
