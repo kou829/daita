@@ -1,0 +1,18 @@
+.agenda_box {
+    margin: 100px 0 0 100px;
+    border-bottom: solid 3px black,0.6;
+}
+
+.agenda_title_show {
+    font-size: 32px;
+    font-family: '游明朝体';
+}
+
+.agenda_overview_show {
+    width: 700px;
+    margin: 30px 0 0 0;
+    font-size: 24px;
+    font-family: '游明朝体';
+}
+
+
